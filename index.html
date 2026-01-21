@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Basic Calculator</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;       
+      padding-top: 40px;         
+      min-height: 100vh;
+      box-sizing: border-box;
+    }
+
+    .box {
+      width: 260px;
+      height: 140px;
+      border: 2px solid black;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      text-align: center;
+    }
+
+    .title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin: 25px 0 0 0;        
+      font-family: monospace;
+      font-size: 17px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box">
+    <div class="title">Basic Calculator</div>
+  </div>
+
+  <p>var a = 10 + 20 = 30</p>
+
+  <script>
+    var a = 10;
+    var b = 20
+    var sum = a + b;
+
+  </script>
+  <p>var a = 10 - 20 = -10 </p>
+
+  <script>
+    var a = 10;
+    var b = 20
+    var sum = a - b;
+
+  </script>
+<p>var a = 10 * 20 = 200</p>
+
+  <script>
+    var a = 10;
+    var b = 20
+    var sum = a * b;
+
+  </script>
+  <p>var a = 10 / 20 = 2</p>
+
+  <script>
+    var a = 10;
+    var b = 20
+    var sum = a / b;
+
+  </script>
+
+</body>
+</html>
